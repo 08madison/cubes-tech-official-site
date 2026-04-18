@@ -204,8 +204,10 @@ function vitePluginStorageProxy(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+const publicBase = process.env.VITE_PUBLIC_BASE || "/";
 
 export default defineConfig({
+  base: publicBase,
   plugins,
   resolve: {
     alias: {
