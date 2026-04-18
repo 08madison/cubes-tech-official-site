@@ -9,7 +9,6 @@ Each section should reinforce stability, experience, and cooperation readiness.
 import {
   ArrowRight,
   Boxes,
-  CheckCircle2,
   Cpu,
   Factory,
   Mail,
@@ -90,12 +89,6 @@ const advantageItems = [
       "重视生产过程中的细节管理与一致性控制，以务实可靠的方式支持长期合作型项目。",
     icon: ShieldCheck,
   },
-];
-
-const companyNotes = [
-  "专注媒体播放器产品 ODM / OEM 与代工服务。",
-  "主营媒体播放器方向。",
-  "服务导向强调稳定、效率与长期合作。",
 ];
 
 export default function Home() {
@@ -264,30 +257,13 @@ export default function Home() {
 
             <div className="grid gap-6">
               <div className="rounded-[1.9rem] border border-stone-300 bg-white p-8 shadow-[0_18px_40px_rgba(15,23,42,0.08)] md:p-10">
-                <div className="grid gap-6 md:grid-cols-[1.1fr_0.9fr] md:items-start">
-                  <div>
-                    <p className="text-lg leading-9 text-slate-700">
-                      深圳市方象霖科技有限公司（Shenzhen Cubes Technology Co., Ltd）成立于
-                      <span className="font-semibold text-slate-900"> 2017 年</span>，
-                      专注于媒体播放器产品的<span className="font-semibold text-slate-900"> ODM、OEM 与代工服务</span>，
-                      主营<span className="font-semibold text-slate-900">媒体播放器</span>方向。
-                    </p>
-
-                  </div>
-
-                  <div className="rounded-[1.6rem] border border-stone-200 bg-stone-50 p-6">
-                    <p className="font-['IBM_Plex_Sans'] text-[0.72rem] uppercase tracking-[0.24em] text-slate-500">
-                      Company Notes
-                    </p>
-                    <div className="mt-4 space-y-4 text-sm leading-7 text-slate-600">
-                      {companyNotes.map((item) => (
-                        <div key={item} className="flex gap-3">
-                          <CheckCircle2 className="mt-1 h-4 w-4 shrink-0 text-sky-700" />
-                          <p>{item}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                <div className="max-w-3xl">
+                  <p className="text-lg leading-9 text-slate-700">
+                    深圳市方象霖科技有限公司（Shenzhen Cubes Technology Co., Ltd）成立于
+                    <span className="font-semibold text-slate-900"> 2017 年</span>，
+                    专注于媒体播放器产品的<span className="font-semibold text-slate-900"> ODM、OEM 与代工服务</span>，
+                    主营<span className="font-semibold text-slate-900">媒体播放器</span>方向。
+                  </p>
                 </div>
               </div>
 
