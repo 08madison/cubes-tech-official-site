@@ -173,9 +173,7 @@ export default function Home() {
                 Media Player ODM & OEM
               </div>
               <h2 className="max-w-3xl font-['Noto_Serif_SC'] text-[2.85rem] font-semibold leading-[1.16] tracking-[-0.03em] text-white md:text-[3.6rem] xl:text-[4rem]">
-                务实稳健地服务
-                <br />
-                媒体播放器产品合作项目
+                专业的媒体播放器产品制造商
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
                 深圳市方象霖科技有限公司专注于媒体播放器产品的 ODM 与代工服务，主营
