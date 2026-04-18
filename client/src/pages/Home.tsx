@@ -291,20 +291,6 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="grid gap-6 md:grid-cols-3">
-                {[
-                  "信息表达更偏务实商务风格，适合传统制造企业官网场景。",
-                  "在白色基础上增加深灰蓝与石材色层次，整体更沉稳耐看。",
-                  "保留中英品牌信息，兼顾国内客户与国际合作沟通。",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-[1.4rem] border border-stone-300 bg-white px-6 py-7 shadow-[0_12px_24px_rgba(15,23,42,0.05)]"
-                  >
-                    <p className="text-sm leading-7 text-slate-600">{item}</p>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
