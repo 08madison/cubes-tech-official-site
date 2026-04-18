@@ -419,9 +419,6 @@ export default function Home() {
                       <div>
                         <p className="contact-label contact-label-light">联系邮箱</p>
                         <p className="contact-value contact-value-light">info@cubes-tech.com</p>
-                        <p className="mt-1 text-xs leading-6 text-amber-300">
-                          当前邮箱内容按您提供信息展示，如需补全准确邮箱，我可以继续替您修改。
-                        </p>
                       </div>
                     </div>
                   </div>
