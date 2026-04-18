@@ -272,9 +272,7 @@ export default function Home() {
                       专注于机顶盒产品的<span className="font-semibold text-slate-900"> ODM、OEM 与代工服务</span>，
                       主要覆盖<span className="font-semibold text-slate-900"> OTT 和 DVB-T 盒子</span>等产品方向。
                     </p>
-                    <p className="mt-5 text-base leading-8 text-slate-600">
-                      本次改版采用更稳重的传统企业官网表达方式，通过深色头部、沉稳对比和实用型文案，强化公司作为贸工技企业在合作中的可靠形象与执行能力。
-                    </p>
+
                   </div>
 
                   <div className="rounded-[1.6rem] border border-stone-200 bg-stone-50 p-6">
@@ -434,7 +432,7 @@ export default function Home() {
                       <Mail className="contact-icon contact-icon-light" />
                       <div>
                         <p className="contact-label contact-label-light">联系邮箱</p>
-                        <p className="contact-value contact-value-light">info@cubes-</p>
+                        <p className="contact-value contact-value-light">info@cubes-tech.com</p>
                         <p className="mt-1 text-xs leading-6 text-amber-300">
                           当前邮箱内容按您提供信息展示，如需补全准确邮箱，我可以继续替您修改。
                         </p>
