@@ -43,23 +43,23 @@ const navItems = [
 const highlights = [
   { value: "2017", label: "公司成立" },
   { value: "ODM / OEM", label: "合作模式" },
-  { value: "OTT · DVB-T", label: "主营产品" },
+  { value: "媒体播放器", label: "主营产品" },
 ];
 
 const serviceCards = [
   {
-    title: "OTT 机顶盒 ODM",
+    title: "OTT 媒体播放器 ODM",
     subtitle: "面向互联网电视及智慧家庭终端的产品开发与制造",
     description:
-      "围绕客户的市场定位与功能需求，提供 OTT 盒子方向的产品规划、外观结构配合、整机制造与项目协同支持。",
+      "围绕客户的市场定位与功能需求，提供 OTT 媒体播放器方向的产品规划、外观结构配合、整机制造与项目协同支持。",
     icon: Boxes,
     image: ottImage,
   },
   {
-    title: "DVB-T 机顶盒代工",
+    title: "DVB-T 媒体播放器代工",
     subtitle: "适配数字电视接收场景的机型导入与批量制造服务",
     description:
-      "聚焦 DVB-T 盒子方向的开发与代工配套，兼顾接口适配、结构执行、量产稳定性与交付节奏。",
+      "聚焦 DVB-T 媒体播放器方向的开发与代工配套，兼顾接口适配、结构执行、量产稳定性与交付节奏。",
     icon: Radio,
     image: dvbtImage,
   },
@@ -93,8 +93,8 @@ const advantageItems = [
 ];
 
 const companyNotes = [
-  "专注机顶盒 ODM / OEM 与代工服务。",
-  "主营 OTT 与 DVB-T 盒子方向。",
+  "专注媒体播放器产品 ODM / OEM 与代工服务。",
+  "主营媒体播放器方向。",
   "服务导向强调稳定、效率与长期合作。",
 ];
 
@@ -177,16 +177,16 @@ export default function Home() {
             <div className="max-w-2xl">
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-slate-600 bg-white/8 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-sky-200">
                 <span className="h-2 w-2 rounded-full bg-sky-300" />
-                Set-Top Box ODM & OEM
+                Media Player ODM & OEM
               </div>
               <h2 className="max-w-3xl font-['Noto_Serif_SC'] text-[2.85rem] font-semibold leading-[1.16] tracking-[-0.03em] text-white md:text-[3.6rem] xl:text-[4rem]">
                 务实稳健地服务
                 <br />
-                机顶盒产品合作项目
+                媒体播放器产品合作项目
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
-                深圳市方象霖科技有限公司专注于机顶盒产品的 ODM 与代工服务，主营
-                <span className="font-semibold text-white"> OTT 与 DVB-T 盒子</span>。
+                深圳市方象霖科技有限公司专注于媒体播放器产品的 ODM 与代工服务，主营
+                <span className="font-semibold text-white">媒体播放器</span>。
                 我们以更务实的项目配合、研发设计协同和供应链整合能力，支持客户高效推进产品落地与批量交付。
               </p>
 
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/6 p-3 shadow-[0_30px_70px_rgba(2,6,23,0.3)] backdrop-blur-sm">
                 <img
                   src={heroImage}
-                  alt="OTT 与 DVB-T 机顶盒主视觉"
+                  alt="媒体播放器产品主视觉"
                   className="h-full min-h-[320px] w-full rounded-[1.55rem] object-cover object-center"
                 />
                 <div className="mt-4 grid gap-4 md:grid-cols-2">
@@ -234,7 +234,7 @@ export default function Home() {
                       Business Focus
                     </p>
                     <p className="mt-3 text-sm leading-7 text-slate-300">
-                      专注 OTT 与 DVB-T 机顶盒方向，面向品牌客户与渠道项目提供定制和代工支持。
+                      专注媒体播放器产品方向，面向品牌客户与渠道项目提供定制和代工支持。
                     </p>
                   </div>
                   <div className="rounded-[1.35rem] border border-white/10 bg-white/90 p-5 text-slate-800">
@@ -258,7 +258,7 @@ export default function Home() {
               <h3 className="section-title text-slate-900">
                 立足深圳，
                 <br />
-                面向机顶盒产品合作需求
+                面向媒体播放器产品合作需求
               </h3>
             </div>
 
@@ -269,8 +269,8 @@ export default function Home() {
                     <p className="text-lg leading-9 text-slate-700">
                       深圳市方象霖科技有限公司（Shenzhen Cubes Technology Co., Ltd）成立于
                       <span className="font-semibold text-slate-900"> 2017 年</span>，
-                      专注于机顶盒产品的<span className="font-semibold text-slate-900"> ODM、OEM 与代工服务</span>，
-                      主要覆盖<span className="font-semibold text-slate-900"> OTT 和 DVB-T 盒子</span>等产品方向。
+                      专注于媒体播放器产品的<span className="font-semibold text-slate-900"> ODM、OEM 与代工服务</span>，
+                      主营<span className="font-semibold text-slate-900">媒体播放器</span>方向。
                     </p>
 
                   </div>
@@ -314,10 +314,10 @@ export default function Home() {
             <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
               <div>
                 <p className="section-kicker section-kicker-dark">产品与服务</p>
-                <h3 className="section-title">围绕 OTT 与 DVB-T 盒子提供合作支持</h3>
+                <h3 className="section-title">围绕媒体播放器产品提供合作支持</h3>
               </div>
               <p className="max-w-2xl justify-self-end text-base leading-8 text-slate-600">
-                我们主要从事机顶盒产品的 ODM 与代工服务，面向客户的不同项目需求，在方案沟通、产品导入、制造执行及交付配合等方面提供务实支持。
+                我们主要从事媒体播放器产品的 ODM 与代工服务，面向客户的不同项目需求，在方案沟通、产品导入、制造执行及交付配合等方面提供务实支持。
               </p>
             </div>
 
@@ -412,9 +412,9 @@ export default function Home() {
 
                 <div className="flex flex-col justify-center px-6 py-10 md:px-10 md:py-14 lg:px-14">
                   <p className="section-kicker section-kicker-light">联系我们</p>
-                  <h3 className="section-title text-white">欢迎沟通机顶盒产品合作需求</h3>
+                  <h3 className="section-title text-white">欢迎沟通媒体播放器产品合作需求</h3>
                   <p className="mt-6 text-base leading-8 text-slate-300">
-                    如果您正在寻找 OTT 或 DVB-T 机顶盒相关的 ODM、OEM 或代工合作伙伴，欢迎与我们联系。以下信息根据您提供的公司资料整理展示。
+                    如果您正在寻找媒体播放器产品相关的 ODM、OEM 或代工合作伙伴，欢迎与我们联系。以下信息根据您提供的公司资料整理展示。
                   </p>
 
                   <div className="mt-10 grid gap-4">
@@ -443,7 +443,7 @@ export default function Home() {
                   <div className="mt-10 rounded-[1.5rem] border border-white/10 bg-white/6 px-6 py-5 text-sm leading-7 text-slate-300">
                     <span className="font-semibold text-white">Shenzhen Cubes Technology Co., Ltd.</span>
                     <br />
-                    Focused on practical cooperation for set-top box ODM, OEM and manufacturing projects.
+                    Focused on practical cooperation for media player ODM, OEM and manufacturing projects.
                   </div>
                 </div>
               </div>
